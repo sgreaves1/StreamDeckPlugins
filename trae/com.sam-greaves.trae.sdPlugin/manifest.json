@@ -80,6 +80,19 @@
 					"TitleAlignment": "middle"
 				}
 			]
+		},
+		{
+			"Name": "Undo",
+			"UUID": "com.sam-greaves.trae.undo",
+			"Icon": "imgs/actions/undo/icon",
+			"Tooltip": "Simulates presing the `undo` action.",
+			"Controllers": [ "Keypad" ],
+			"States": [
+				{
+					"Image": "imgs/actions/undo/key",
+					"TitleAlignment": "middle"
+				}
+			]
 		}
 	],
 	"Category": "Trae",

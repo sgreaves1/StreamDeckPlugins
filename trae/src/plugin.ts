@@ -6,6 +6,7 @@ import { SearchFiles } from "./actions/search-files";
 import { Cut } from "./actions/cut";
 import { Copy } from "./actions/copy";
 import { Paste } from "./actions/paste";
+import { Undo } from "./actions/undo";
 
 // We can enable "trace" logging so that all messages between the Stream Deck, and the plugin are recorded. When storing sensitive information
 streamDeck.logger.setLevel(LogLevel.TRACE);
@@ -17,6 +18,7 @@ streamDeck.actions.registerAction(new SearchFiles());
 streamDeck.actions.registerAction(new Cut());
 streamDeck.actions.registerAction(new Copy());
 streamDeck.actions.registerAction(new Paste());
+streamDeck.actions.registerAction(new Undo());
 
 // Finally, connect to the Stream Deck.
 streamDeck.connect();
