@@ -28,6 +28,19 @@
 					"TitleAlignment": "middle"
 				}
 			]
+		},
+		{
+			"Name": "Search Files",
+			"UUID": "com.sam-greaves.trae.search-files",
+			"Icon": "imgs/actions/searchFiles/icon",
+			"Tooltip": "Simulates presing the `go to files` action.",
+			"Controllers": [ "Keypad" ],
+			"States": [
+				{
+					"Image": "imgs/actions/searchFiles/key",
+					"TitleAlignment": "middle"
+				}
+			]
 		}
 	],
 	"Category": "Trae",
