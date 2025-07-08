@@ -1,0 +1,44 @@
+{
+	"Name": "Trae",
+	"Version": "0.1.0.0",
+	"Author": "Sam Greaves",
+	"Actions": [
+		{
+			"Name": "Launch Trae",
+			"UUID": "com.sam-greaves.trae.increment",
+			"Icon": "imgs/actions/launch/icon",
+			"Tooltip": "Launch or focus the Trae app.",
+			"Controllers": [ "Keypad" ],
+			"States": [
+				{
+					"Image": "imgs/actions/launch/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "Trae",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Plugin for the Trae IDE",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.sam-greaves.trae"
+}
