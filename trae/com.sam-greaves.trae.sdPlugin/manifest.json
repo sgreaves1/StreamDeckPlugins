@@ -41,6 +41,45 @@
 					"TitleAlignment": "middle"
 				}
 			]
+		},
+		{
+			"Name": "Cut",
+			"UUID": "com.sam-greaves.trae.cut",
+			"Icon": "imgs/actions/cut/icon",
+			"Tooltip": "Simulates presing the `cut` action.",
+			"Controllers": [ "Keypad" ],
+			"States": [
+				{
+					"Image": "imgs/actions/cut/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Copy",
+			"UUID": "com.sam-greaves.trae.copy",
+			"Icon": "imgs/actions/copy/icon",
+			"Tooltip": "Simulates presing the `copy` action.",
+			"Controllers": [ "Keypad" ],
+			"States": [
+				{
+					"Image": "imgs/actions/copy/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Paste",
+			"UUID": "com.sam-greaves.trae.paste",
+			"Icon": "imgs/actions/paste/icon",
+			"Tooltip": "Simulates presing the `paste` action.",
+			"Controllers": [ "Keypad" ],
+			"States": [
+				{
+					"Image": "imgs/actions/paste/key",
+					"TitleAlignment": "middle"
+				}
+			]
 		}
 	],
 	"Category": "Trae",

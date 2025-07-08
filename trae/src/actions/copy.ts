@@ -4,23 +4,21 @@ import { promisify } from "util";
 
 const execAsync = promisify(exec);
 
-@action({UUID: "com.sam-greaves.trae.search-files"})
-export class SearchFiles extends SingletonAction {
+@action({ UUID: "com.sam-greaves.trae.copy" })
+export class Copy extends SingletonAction {
     override async onKeyDown(ev: KeyDownEvent): Promise<void> {
         try {
-            console.log("Plugin initialized");
-
-            // AppleScript to simulate go to definition
+            // AppleScript to simulate Copy
             const script = `
                 tell application "System Events"
                     tell process "Trae"
-                        click menu item "Go to File…" of menu "Go" of menu bar 1
+                        click menu item "Copy" of menu "Edit" of menu bar 1
                     end tell
                 end tell
             `;
             await execAsync(`osascript -e '${script}'`);
         } catch (error) {
-            console.error('Failed to simulate "Go to File": ', error);
+            console.error('Failed to simulate "Copy": ', error);
         }
     }
 }
