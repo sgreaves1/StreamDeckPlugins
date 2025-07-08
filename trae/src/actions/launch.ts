@@ -20,7 +20,7 @@ export class LaunchTrae extends SingletonAction {
             `;
             await execAsync(`osascript -e '${script}'`);
         } catch (error) {
-            console.error('Failed to launch/focus Trae:', error);
+            console.error('Failed to launch/focus Trae: ', error);
         }
     }
 }

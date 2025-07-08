@@ -5,13 +5,26 @@
 	"Actions": [
 		{
 			"Name": "Launch Trae",
-			"UUID": "com.sam-greaves.trae.increment",
+			"UUID": "com.sam-greaves.trae.launch",
 			"Icon": "imgs/actions/launch/icon",
 			"Tooltip": "Launch or focus the Trae app.",
 			"Controllers": [ "Keypad" ],
 			"States": [
 				{
 					"Image": "imgs/actions/launch/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Go To Definition",
+			"UUID": "com.sam-greaves.trae.go-to-definition",
+			"Icon": "imgs/actions/definition/icon",
+			"Tooltip": "Simulates presing the `go to definition` action.",
+			"Controllers": [ "Keypad" ],
+			"States": [
+				{
+					"Image": "imgs/actions/definition/key",
 					"TitleAlignment": "middle"
 				}
 			]
