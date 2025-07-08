@@ -1,0 +1,44 @@
+{
+	"Name": "xcode",
+	"Version": "0.1.0.0",
+	"Author": "Sam Greaves",
+	"Actions": [
+		{
+			"Name": "Launch Xcode",
+			"UUID": "com.sam-greaves.xcode.launch",
+			"Icon": "imgs/actions/launch/icon",
+			"Tooltip": "Launch or focus the Xcode app.",
+			"Controllers": [ "Keypad" ],
+			"States": [
+				{
+					"Image": "imgs/actions/launch/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "xcode",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "plugin for xcode IDE",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.sam-greaves.xcode"
+}
