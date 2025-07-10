@@ -8,10 +8,57 @@
 			"UUID": "com.sam-greaves.xcode.launch",
 			"Icon": "imgs/actions/launch/icon",
 			"Tooltip": "Launch or focus the Xcode app.",
-			"Controllers": [ "Keypad" ],
+			"Controllers": [
+				"Keypad"
+			],
 			"States": [
 				{
 					"Image": "imgs/actions/launch/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Run",
+			"UUID": "com.sam-greaves.xcode.run",
+			"Icon": "imgs/actions/run/icon",
+			"Tooltip": "Run.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/run/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Stop",
+			"UUID": "com.sam-greaves.xcode.stop",
+			"Icon": "imgs/actions/stop/icon",
+			"Tooltip": "Stop.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/stop/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Cut",
+			"UUID": "com.sam-greaves.xcode.cut",
+			"Icon": "imgs/actions/cut/icon",
+			"Tooltip": "Cut.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/cut/key",
 					"TitleAlignment": "middle"
 				}
 			]

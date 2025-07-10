@@ -8,7 +8,9 @@
 			"UUID": "com.sam-greaves.trae.launch",
 			"Icon": "imgs/actions/launch/icon",
 			"Tooltip": "Launch or focus the Trae app.",
-			"Controllers": [ "Keypad" ],
+			"Controllers": [
+				"Keypad"
+			],
 			"States": [
 				{
 					"Image": "imgs/actions/launch/key",
@@ -21,7 +23,9 @@
 			"UUID": "com.sam-greaves.trae.go-to-definition",
 			"Icon": "imgs/actions/definition/icon",
 			"Tooltip": "Simulates presing the `go to definition` action.",
-			"Controllers": [ "Keypad" ],
+			"Controllers": [
+				"Keypad"
+			],
 			"States": [
 				{
 					"Image": "imgs/actions/definition/key",
@@ -34,7 +38,9 @@
 			"UUID": "com.sam-greaves.trae.search-files",
 			"Icon": "imgs/actions/searchFiles/icon",
 			"Tooltip": "Simulates presing the `go to files` action.",
-			"Controllers": [ "Keypad" ],
+			"Controllers": [
+				"Keypad"
+			],
 			"States": [
 				{
 					"Image": "imgs/actions/searchFiles/key",
@@ -47,7 +53,9 @@
 			"UUID": "com.sam-greaves.trae.cut",
 			"Icon": "imgs/actions/cut/icon",
 			"Tooltip": "Simulates presing the `cut` action.",
-			"Controllers": [ "Keypad" ],
+			"Controllers": [
+				"Keypad"
+			],
 			"States": [
 				{
 					"Image": "imgs/actions/cut/key",
@@ -60,7 +68,9 @@
 			"UUID": "com.sam-greaves.trae.copy",
 			"Icon": "imgs/actions/copy/icon",
 			"Tooltip": "Simulates presing the `copy` action.",
-			"Controllers": [ "Keypad" ],
+			"Controllers": [
+				"Keypad"
+			],
 			"States": [
 				{
 					"Image": "imgs/actions/copy/key",
@@ -73,7 +83,9 @@
 			"UUID": "com.sam-greaves.trae.paste",
 			"Icon": "imgs/actions/paste/icon",
 			"Tooltip": "Simulates presing the `paste` action.",
-			"Controllers": [ "Keypad" ],
+			"Controllers": [
+				"Keypad"
+			],
 			"States": [
 				{
 					"Image": "imgs/actions/paste/key",
@@ -86,7 +98,9 @@
 			"UUID": "com.sam-greaves.trae.undo",
 			"Icon": "imgs/actions/undo/icon",
 			"Tooltip": "Simulates presing the `undo` action.",
-			"Controllers": [ "Keypad" ],
+			"Controllers": [
+				"Keypad"
+			],
 			"States": [
 				{
 					"Image": "imgs/actions/undo/key",
