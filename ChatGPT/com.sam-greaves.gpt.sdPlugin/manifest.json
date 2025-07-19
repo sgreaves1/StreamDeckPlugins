@@ -1,0 +1,61 @@
+{
+	"Name": "gpt",
+	"Version": "0.1.0.0",
+	"Author": "Sam Greaves",
+	"Actions": [
+		{
+			"Name": "Launch gpt",
+			"UUID": "com.sam-greaves.gpt.launch",
+			"Icon": "imgs/actions/launch/icon",
+			"Tooltip": "Launch or focus the gpt app.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/launch/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Cut",
+			"UUID": "com.sam-greaves.gpt.cut",
+			"Icon": "imgs/actions/cut/icon",
+			"Tooltip": "Cut.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/cut/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "gpt",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "plugin for gpt IDE",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.sam-greaves.gpt"
+}
