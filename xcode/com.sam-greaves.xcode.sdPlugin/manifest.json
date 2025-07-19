@@ -62,6 +62,21 @@
 					"TitleAlignment": "middle"
 				}
 			]
+		},
+		{
+			"Name": "Copy",
+			"UUID": "com.sam-greaves.xcode.copy",
+			"Icon": "imgs/actions/copy/icon",
+			"Tooltip": "Copy.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/copy/key",
+					"TitleAlignment": "middle"
+				}
+			]
 		}
 	],
 	"Category": "xcode",
