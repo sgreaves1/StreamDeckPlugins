@@ -10,7 +10,7 @@ export class SearchFiles extends SingletonAction {
         try {
             console.log("Plugin initialized");
 
-            // AppleScript to simulate go to definition
+            // AppleScript to simulate "Go to File"
             const script = `
                 tell application "System Events"
                     tell process "Trae"
