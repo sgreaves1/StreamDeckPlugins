@@ -77,6 +77,21 @@
 					"TitleAlignment": "middle"
 				}
 			]
+		},
+		{
+			"Name": "Paste",
+			"UUID": "com.sam-greaves.xcode.paste",
+			"Icon": "imgs/actions/copy/icon",
+			"Tooltip": "Paste.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/paste/key",
+					"TitleAlignment": "middle"
+				}
+			]
 		}
 	],
 	"Category": "xcode",
