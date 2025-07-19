@@ -12,7 +12,7 @@ export class Copy extends SingletonAction {
             const script = `
                 tell application "System Events"
                     tell process "Xcode"
-                        click menu item "Copy" of menu "Edit" of menu bar 1
+                        click menu item "Copy" of menu 1 of menu item "Copy" of menu "Edit" of menu bar 1
                     end tell
                 end tell
             `;

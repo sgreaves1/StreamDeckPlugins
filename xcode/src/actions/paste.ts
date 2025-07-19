@@ -12,7 +12,7 @@ export class Paste extends SingletonAction {
             const script = `
                 tell application "System Events"
                     tell process "Xcode"
-                        click menu item "Paste" of menu "Edit" of menu bar 1
+                        click menu item "Paste" of menu 1 of menu item "Paste" of menu "Edit" of menu bar 1
                     end tell
                 end tell
             `;
